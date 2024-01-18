@@ -35,5 +35,7 @@ void quick_sort_hoare(int *array, size_t size);
 /*void sort_deck(deck_node_t **deck);*/
 void swap(int *a, int *b);
 listint_t *swap_node(listint_t *node, listint_t **list);
+int partition(int *array, int low, int high, size_t array_size);
+void lomuto_qsort(int *array, int low, int high, size_t size);
 
 #endif
