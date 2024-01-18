@@ -1,6 +1,21 @@
 #include "sort.h"
 
 /**
+ * swap - first elemeent with second elememt.
+ *
+ * @a: first element.
+ * @b: second element.
+ *
+ * Return: Nothing.
+ */
+void swap(int *a, int *b)
+{
+	int temp = *a;
+	*a = *b;
+	*b = temp;
+}
+
+/**
  * bubble_sort - sorts an array of integers in ascending order
  * using the Bubble sort algorithm.
  *
@@ -26,19 +41,4 @@ void bubble_sort(int *array, size_t size)
 			}
 		}
 	}
-}
-
-/**
- * swap - first elemeent with second elememt.
- *
- * @a: first element.
- * @b: second element.
- *
- * Return: Nothing.
- */
-void swap(int *a, int *b)
-{
-	int temp = *a;
-	*a = *b;
-	*b = temp;
 }
