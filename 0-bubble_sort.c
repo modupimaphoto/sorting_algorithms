@@ -14,7 +14,6 @@ void swap(int *a, int *b)
 	*a = *b;
 	*b = temp;
 }
-
 /**
  * bubble_sort - sorts an array of integers in ascending order
  * using the Bubble sort algorithm.
