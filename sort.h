@@ -38,5 +38,6 @@ listint_t *swap_node(listint_t *node, listint_t **list);
 int partition(int *array, int low, int high, size_t array_size);
 void lomuto_qsort(int *array, int low, int high, size_t size);
 void swap_nodes(listint_t **node1, listint_t **node2, listint_t **list);
+void merge(int *array, int *left, int *right, size_t size);
 
 #endif
